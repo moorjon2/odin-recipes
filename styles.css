@@ -1,0 +1,36 @@
+#bob-container, p, h1, h2, h3, ul, #polka, #cauli, #blk{
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 720px;
+}
+
+.uno, .dos, .tres {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: greenyellow;
+    color: black;
+}
