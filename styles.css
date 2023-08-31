@@ -1,36 +1,75 @@
-#bob-container, p, h1, h2, h3, ul, #polka, #cauli, #blk{
+/*index.html from here*/
+.wrapper > *{
+    /*border: 2px solid red;*/
+    display: block;
     text-align: center;
 }
 
-h2 {
-    font-size: 30px;
+.bob {
+    margin: 0 auto;
+    height: 460px;
+    width: 840px;
 }
 
-p, li {
-    font-size: 18px;
+a {
+    text-decoration: none;
 }
 
-ul {
+.bob-list {
     list-style-type: none;
-}
-
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 720px;
+    border: 2px dashed blue;
+    width: 800px;
+    margin: 0 auto;
+    background-color: azure;
+    color: blue;
 }
 
 .uno, .dos, .tres {
-    margin: 20px;
+    padding: 5px;
+    margin: 10px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+/*index.html to here*/
+
+/*recipes*/
+
+.burgers > * {
+    /*border: 2px solid red;*/
+    margin: 5px;
+}
+
+.burgerItem {
+    padding: 15px;
+    width: 1200px;
+    font-size: 18px;
+    background-color: azure;
+    border: 2px dashed blue;
+}
+
+.burgerImage {
+    height: 640px;
+    width: 640px;
+}
+
+.itemPic, .burgerItem {
+    float: left;
 }
 
 button {
-    margin: 20px;
+    font-size: 24px;
     padding: 10px;
-    font-size: 18px;
-    background-color: greenyellow;
+    text-align: center;
+    border-radius: 12px;
+    background-color: white;
     color: black;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: green;
+    color: white;
 }
